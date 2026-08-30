@@ -22,34 +22,44 @@ El análisis sigue una metodología estándar en econometría financiera:
 
 ---
 
-## Estructura del repositorio
+Estructura del repositorio
 examen_series_tiempo/
+│
 ├── codigo/
-│ └── examen_script.R # Script completo en R (ejecutable)
-├── datos/ # Datos generados (opcional)
-│ ├── 01_precios_semanales.csv
-│ ├── 02_log_precios.csv
-│ └── 03_retornos.csv
+│   └── examen_script.R
+│
+├── datos/
+│   ├── 01_precios_semanales.csv
+│   ├── 02_log_precios.csv
+│   └── 03_retornos.csv
+│
 ├── resultados/
-│ ├── 06_ADF_niveles.csv
-│ ├── 07_ADF_diferencias.csv
-│ ├── 08_KPSS_niveles.csv
-│ ├── 09_KPSS_diferencias.csv
-│ ├── 15_VAR_estimado.txt
-│ ├── 17_Portmanteau.txt
-│ ├── 21_ARCH_multivariado.txt
-│ ├── 22_Granger_WTI.txt
-│ ├── 25_IRF_WTI.png
-│ ├── 28_FEVD.png
-│ ├── 29_estadisticos_descriptivos.csv
-│ ├── 30_correlaciones.csv
-│ ├── FEVD_r_WTI_4_8_12.csv
-│ ├── FEVD_r_XOM_4_8_12.csv
-│ └── FEVD_r_CVX_4_8_12.csv
+│   ├── 06_ADF_niveles.csv
+│   ├── 07_ADF_diferencias.csv
+│   ├── 08_KPSS_niveles.csv
+│   ├── 09_KPSS_diferencias.csv
+│   ├── 15_VAR_estimado.txt
+│   ├── 17_Portmanteau.txt
+│   ├── 21_ARCH_multivariado.txt
+│   ├── 22_Granger_WTI.txt
+│   ├── 25_IRF_WTI.png
+│   ├── 28_FEVD.png
+│   ├── 29_estadisticos_descriptivos.csv
+│   ├── 30_correlaciones.csv
+│   ├── FEVD_r_WTI_4_8_12.csv
+│   ├── FEVD_r_XOM_4_8_12.csv
+│   └── FEVD_r_CVX_4_8_12.csv
+│
 ├── informe/
-│ └── informe_examen.pdf # Informe final en PDF (con todas las tablas y gráficos)
-└── README.md # Este archivo
-
+│   └── informe_examen.pdf
+│
+└── README.md
+Descripción de los archivos principales
+codigo/examen_script.R → Script completo en R (ejecutable).
+datos/ → Datos generados durante el análisis.
+resultados/ → Tablas, gráficos y resultados numéricos obtenidos.
+informe/informe_examen.pdf → Informe final en PDF con todas las tablas y gráficos.
+README.md → Documento de presentación y descripción del proyecto.
 
 ---
 
