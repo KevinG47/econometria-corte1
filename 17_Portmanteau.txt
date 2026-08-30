@@ -1,0 +1,6 @@
+
+	Portmanteau Test (asymptotic)
+
+data:  Residuals of VAR object modelo
+Chi-squared = 184.24, df = 99, p-value = 4.368e-07
+

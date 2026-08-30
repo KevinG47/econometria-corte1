@@ -1,0 +1,16 @@
+$Granger
+
+	Granger causality H0: r_WTI do not Granger-cause r_XOM r_CVX
+
+data:  VAR object modelo
+F-Test = 0.33358, df1 = 2, df2 = 1236, p-value = 0.7164
+
+
+$Instant
+
+	H0: No instantaneous causality between: r_WTI and r_XOM r_CVX
+
+data:  VAR object modelo
+Chi-squared = 114.73, df = 2, p-value < 2.2e-16
+
+

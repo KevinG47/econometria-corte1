@@ -1,0 +1,81 @@
+
+VAR Estimation Results:
+========================= 
+Endogenous variables: r_WTI, r_XOM, r_CVX 
+Deterministic variables: const 
+Sample size: 416 
+Log Likelihood: 2401.616 
+Roots of the characteristic polynomial:
+0.1211 0.1211 0.1143
+Call:
+VAR(y = retornos, p = p, type = "const")
+
+
+Estimation results for equation r_WTI: 
+====================================== 
+r_WTI = r_WTI.l1 + r_XOM.l1 + r_CVX.l1 + const 
+
+           Estimate Std. Error t value Pr(>|t|)  
+r_WTI.l1  0.1051692  0.0620041   1.696   0.0906 .
+r_XOM.l1  0.1154296  0.1311607   0.880   0.3793  
+r_CVX.l1 -0.1031138  0.1251011  -0.824   0.4103  
+const    -0.0003163  0.0028776  -0.110   0.9125  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.05861 on 412 degrees of freedom
+Multiple R-Squared: 0.01482,	Adjusted R-squared: 0.007645 
+F-statistic: 2.066 on 3 and 412 DF,  p-value: 0.1041 
+
+
+Estimation results for equation r_XOM: 
+====================================== 
+r_XOM = r_WTI.l1 + r_XOM.l1 + r_CVX.l1 + const 
+
+          Estimate Std. Error t value Pr(>|t|)  
+r_WTI.l1  0.007352   0.044568   0.165   0.8690  
+r_XOM.l1  0.174465   0.094277   1.851   0.0649 .
+r_CVX.l1 -0.188469   0.089922  -2.096   0.0367 *
+const     0.001589   0.002068   0.768   0.4428  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.04213 on 412 degrees of freedom
+Multiple R-Squared: 0.01101,	Adjusted R-squared: 0.00381 
+F-statistic: 1.529 on 3 and 412 DF,  p-value: 0.2064 
+
+
+Estimation results for equation r_CVX: 
+====================================== 
+r_CVX = r_WTI.l1 + r_XOM.l1 + r_CVX.l1 + const 
+
+           Estimate Std. Error t value Pr(>|t|)   
+r_WTI.l1 -0.0132569  0.0448337  -0.296  0.76762   
+r_XOM.l1  0.2472663  0.0948392   2.607  0.00946 **
+r_CVX.l1 -0.1765060  0.0904576  -1.951  0.05170 . 
+const     0.0009524  0.0020807   0.458  0.64739   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.04238 on 412 degrees of freedom
+Multiple R-Squared: 0.01715,	Adjusted R-squared: 0.009992 
+F-statistic: 2.396 on 3 and 412 DF,  p-value: 0.06771 
+
+
+
+Covariance matrix of residuals:
+         r_WTI    r_XOM    r_CVX
+r_WTI 0.003436 0.001505 0.001403
+r_XOM 0.001505 0.001775 0.001500
+r_CVX 0.001403 0.001500 0.001796
+
+Correlation matrix of residuals:
+       r_WTI  r_XOM  r_CVX
+r_WTI 1.0000 0.6094 0.5646
+r_XOM 0.6094 1.0000 0.8398
+r_CVX 0.5646 0.8398 1.0000
+
+

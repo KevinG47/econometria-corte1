@@ -1,0 +1,6 @@
+
+	ARCH (multivariate)
+
+data:  Residuals of VAR object modelo
+Chi-squared = 1044.5, df = 180, p-value < 2.2e-16
+
