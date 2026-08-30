@@ -147,17 +147,18 @@ Se seleccionó **1 rezago** según el criterio de BIC (SC).
 
 **Ecuaciones estimadas:**
 
-\[
+$$
 \begin{aligned}
 r_{WTI,t} &= 0.105 \cdot r_{WTI,t-1} + 0.115 \cdot r_{XOM,t-1} - 0.103 \cdot r_{CVX,t-1} - 0.0003 + \varepsilon_{1,t} \\
 r_{XOM,t} &= 0.007 \cdot r_{WTI,t-1} + 0.174 \cdot r_{XOM,t-1} - 0.188 \cdot r_{CVX,t-1} + 0.0016 + \varepsilon_{2,t} \\
 r_{CVX,t} &= -0.013 \cdot r_{WTI,t-1} + 0.247 \cdot r_{XOM,t-1} - 0.177 \cdot r_{CVX,t-1} + 0.0010 + \varepsilon_{3,t}
 \end{aligned}
-\]
+$$
 
 **Observaciones:**
-- Solo los coeficientes de \( r_{XOM,t-1} \) en la ecuación de \( r_{CVX} \) y \( r_{CVX,t-1} \) en la de \( r_{XOM} \) son significativos al 5 %.
-- El modelo explica muy poca varianza (\( R^2 \) ajustado entre 0.4 % y 1 %).
+
+- Solo los coeficientes de $r_{XOM,t-1}$ en la ecuación de $r_{CVX}$ y $r_{CVX,t-1}$ en la de $r_{XOM}$ son significativos al 5 %.
+- El modelo explica muy poca varianza ($R^2$ ajustado entre 0.4 % y 1 %).
 
 ---
 
