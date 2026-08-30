@@ -22,7 +22,9 @@ El análisis sigue una metodología estándar en econometría financiera:
 
 ---
 
-Estructura del repositorio
+## Estructura del repositorio
+
+```text
 examen_series_tiempo/
 │
 ├── codigo/
@@ -54,12 +56,15 @@ examen_series_tiempo/
 │   └── informe_examen.pdf
 │
 └── README.md
-Descripción de los archivos principales
-codigo/examen_script.R → Script completo en R (ejecutable).
-datos/ → Datos generados durante el análisis.
-resultados/ → Tablas, gráficos y resultados numéricos obtenidos.
-informe/informe_examen.pdf → Informe final en PDF con todas las tablas y gráficos.
-README.md → Documento de presentación y descripción del proyecto.
+```
+
+### Archivos principales
+
+- **`codigo/examen_script.R`** → Script completo en R (ejecutable).
+- **`datos/`** → Datos generados durante el análisis.
+- **`resultados/`** → Tablas, gráficos y resultados numéricos.
+- **`informe/informe_examen.pdf`** → Informe final en PDF con todas las tablas y gráficos.
+- **`README.md`** → Documento de presentación y descripción del proyecto.
 
 ---
 
