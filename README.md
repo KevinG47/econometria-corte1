@@ -1,16 +1,16 @@
 # Examen Parcial de Econometría de Series de Tiempo
 ## Modelos VAR y VEC con Aplicación Financiera
 
-**Estudiante:** [Tu nombre completo]  
-**Asignatura:** Econometría Avanzada  
-**Semestre:** 2026-I  
-**Fecha de entrega:** [Fecha]
+**Estudiante:** Kevin Chaparro  
+**Asignatura:** Econometría   
+**Semestre:** 2026-II  
+**Fecha de entrega:** 03/09/2026
 
 ---
 
 ## Descripción del proyecto
 
-Este repositorio contiene el desarrollo completo del examen práctico de la asignatura **Econometría de Series de Tiempo**, en el cual se analiza la relación de corto y largo plazo entre el precio del petróleo crudo WTI (CL=F) y las acciones de ExxonMobil (XOM) y Chevron (CVX) durante el período **01-01-2018 a 31-12-2025** con frecuencia semanal.
+Este repositorio contiene el desarrollo completo del examen práctico de la asignatura **Econometría**, en el cual se analiza la relación de corto y largo plazo entre el precio del petróleo crudo WTI (CL=F) y las acciones de ExxonMobil (XOM) y Chevron (CVX) durante el período **01-01-2018 a 31-12-2025** con frecuencia semanal.
 
 El análisis sigue una metodología estándar en econometría financiera:
 1. Obtención y tratamiento de datos.
@@ -218,5 +218,5 @@ Este trabajo fue desarrollado de manera autónoma siguiendo la metodología ense
 
 ---
 
-**Contacto:** [tu correo electrónico]  
-**Repositorio:** [enlace a tu repositorio, si lo tienes]
+**Contacto:** kevin.chaparro@usantotomas.edu.co  
+**Repositorio:** https://github.com/KevinG47/econometria-corte1.git
